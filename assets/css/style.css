@@ -1,0 +1,49 @@
+.background {
+  background-color: #f48b41;
+}
+
+#instructions {
+  background-color: turquoise;
+}
+
+h1 {
+  text-align: center;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsSKLt4iKH3QPxeZFYmxwOVKZl84p0t1EQVvBMR5OlRbJioE_f");
+}
+
+#numberToMatch {
+  background-color: #4197f4;
+  padding-bottom: 60px;
+}
+
+#wins {
+  background-color: #f141f4;
+  padding-bottom: 10px;
+}
+
+#winScore {
+  padding-bottom: 10px;
+  background-color: #f141f4;
+}
+
+#loseScore {
+  background-color: #f141f4;
+  padding-bottom: 10px;
+}
+
+#losses {
+  background-color: #f141f4;
+  padding-bottom: 10px;
+}
+
+img:hover {
+    opacity: .7;
+}
+
+#yourScore {
+  background-color: #f441c4;
+}
+
+#totalScore {
+  background-color: #f441c4;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>CrystalCollector!</title>
+  </head>
+  <body>
+    <div class="background">
+    <div class="container">
+      <div class="row">
+        <h1 class="col-md-8 jumbotron" id="header">CrystalsCollector!</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6" id="instructions">
+          <h3> Instructions </h3>
+          <p>You will be given a random number at the start of the game.</p>
+          <p>There are four crystals below. By clicking on a crystal, you
+            will add a specific amount of points to your total score.</p>
+          <p>You win the game by matching your total score to a random number.
+             You lose the game if your total score goes above the random number.</p>
+          <p>The value of each crystal is hidden from you until you click on it.</p>
+          <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2" id="numberToMatch"></div>
+        <div class= "col-md-1" id ="winScore"><p>Wins:</p></div>
+        <div class= "col-md-1" id ="wins"><p></p>0</div>
+        <br><br>
+          <div>
+          <div class = "col-md-1" id="loseScore"><p>Losses :</p></div>
+          <div class = "col-md-1" id ="losses"><p>0</p></div>
+        </div>
+      </div>
+
+      <div class="row" class ="crystalImages">
+        <img src="assets/images/images-9.jpg" id="button1">
+        <img src="assets/images/images-6.jpg" id="button2">
+        <img src="assets/images/images-7.jpg" id="button3">
+        <img src="assets/images/download-4.jpg" id="button4">
+      </div>
+
+    <div class ="row col-md-3" id="yourScore">
+        <p>Your total score is: </p>
+    </div>
+
+    <div class ="row col-md-3" id ="totalScore">
+      <p>0</p>
+    </div>
+
+</div>
+</div>
+    <script src="assets/javascript/game.js"></script>
+
+  </body>
+</html>
